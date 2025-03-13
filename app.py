@@ -6,7 +6,7 @@ from streamlit_lottie import st_lottie import json
 translator = Translator()
 st.title('Uso de textblob')
 
-with open( 'animacion_1.json') as source:
+with open( 'Animacion_1.json') as source:
 animation=json. load (source)
 st.lottie(animation,width =350)
 
