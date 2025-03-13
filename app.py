@@ -8,7 +8,7 @@ translator = Translator()
 st.title('Uso de textblob')
 
 with open( 'Animacion_1.json') as source:
-animation=json. load (source)
+  animation=json. load (source)
 st.lottie(animation,width =350)
 
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
